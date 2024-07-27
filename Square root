@@ -1,0 +1,32 @@
+import java.util.*;
+class Root
+{
+	public static void main(String arg[])
+	{
+	double a;
+	double b;
+	double c;
+	double d;
+	double r1;
+	double r2;
+	Scanner sc=new Scanner(System.in);
+	System.out.println("Enter the values: ");
+	a=sc.nextDouble();
+	b=sc.nextDouble();
+	c=sc.nextDouble();
+	d=b*b-4*a*c;
+	if(d==0) {
+	System.out.println("it has only 1 real root\n");
+	r1=-b/(2*a);
+	System.out.println("Root of the equation is :\n"+r1);
+	}
+	else if(d>0) {
+	System.out.println("Ithas 2 real roots\n");
+	r1=(-b+Math.sqrt(d))/(2*a);
+	r2=(-b-Math.sqrt(d))/(2*a);
+	System.out.println("Roots of the equation are:\n"+r1+"and"+r2);
+	} else {
+	System.out.println("It has no real roots \n");
+	}
+	}
+	}
