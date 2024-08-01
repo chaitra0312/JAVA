@@ -1,0 +1,20 @@
+import java.util.*;
+class Releation {
+	public static void main(String[]arg)
+	{
+	int a;
+	int b;
+	Scanner sc=new Scanner(System.in);
+	System.out.println("Enter The Value A,B");
+	a=sc.nextInt();
+	b=sc.nextInt();
+	System.out.println("Greater Than: "+(a>b));
+	System.out.println("Less Than: "+(a<b));
+	System.out.println("GreaterThan or Equal to: "+(a>=b));
+	System.out.println("LessThan or Equal to: "+(a<=b));
+	System.out.println("Equal to: " +(a==b));
+	System.out.println("Not Equal to: "+(a!=b));
+	}
+}
+	
+ 
