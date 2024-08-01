@@ -1,0 +1,19 @@
+import java.util.*;
+class Bitwise {
+	public static void main(String[]arg)
+	{
+	int a;
+	int b;
+	Scanner sc=new Scanner(System.in);
+	System.out.println("Enter The Value A,B");
+	a=sc.nextInt();
+	b=sc.nextInt();
+	System.out.println("Or: "+(a|b));
+	System.out.println("And: "+(a&b));
+	System.out.println("Left-shift: "+(a<<1));
+	System.out.println("Right-shift: "+(b>>1));
+	System.out.println("X-or: " +(a^b));
+	}
+}
+	
+ 
