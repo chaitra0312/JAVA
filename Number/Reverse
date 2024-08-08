@@ -1,0 +1,17 @@
+import java.util.*;
+class Reverse
+{
+	public static void main(String[]arg)
+		{
+		int rem, temp, sum=0;
+		Scanner sc=new Scanner(System.in);
+		int n=sc.nextInt();
+		temp=n;
+		while(n>0) {
+		rem=n%10;
+		sum=sum*10+rem;
+		n=n/10;
+		}
+		System.out.println(sum);
+	}
+}		
