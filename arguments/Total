@@ -1,0 +1,14 @@
+import java.util.*;
+class Total
+{
+	public static void main(String[]arg)
+		{
+		int arr[]={12,34,56,78,90};
+		int total=0;
+		for(int i:arr)
+		{
+		total+=i;
+		}
+		System.out.println("Total is: "+total);
+	}
+	}
