@@ -1,0 +1,18 @@
+import java.util.*;
+class fibonocci {
+	public static void main(String[]arg)
+	{
+	    int a=0;
+	    int b=1;
+	    int n;
+	    Scanner sc=new Scanner(System.in);
+	    n=sc.nextInt();
+	    for(int i=2;i<n;i++)
+	    {
+	    int sum=a+b;
+	    System.out.println(sum);
+	    a=b;
+	    b=sum;
+	    	}
+	    	}
+}
