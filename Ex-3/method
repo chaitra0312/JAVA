@@ -1,0 +1,25 @@
+import java.util.*;
+public class palindrome {
+	static void method(int n){
+	int rem;
+	int sum=0;
+	int temp;
+	temp=n;
+	while(n>0) {
+	rem=n%10;
+	sum=sum*10+rem;
+	n=n/10;
+	}
+if(temp==sum) {
+	System.out.println("it is a palindrome");
+}else {
+	System.out.println("it is not a palindrome");
+	}
+	}
+public static void main(String[]arg) {
+System.out.println("Enter the n: ");
+Scanner sc=new Scanner(System.in);
+int n=sc.nextInt();
+method(n);
+}
+}
