@@ -1,0 +1,20 @@
+
+import java.util.*;
+public class Sum {
+	void add(int a,int b) {
+	System.out.println("Sum" +(a+b));
+	}
+	void add(int a, int b,int c) {
+	System.out.println("sum" +(a+b+c));
+	}
+public static void main(String[]arg) {
+	System.out.println("enter num");
+	Scanner sc=new Scanner(System.in);
+	a=sc.nextInt();
+	b=sc.nextInt();
+	c=sc.nextInt();
+	Sum s=new Sum();
+	s.add(a,b);
+	s.add(a,b,c);
+	}
+	}
