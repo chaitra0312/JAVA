@@ -1,4 +1,4 @@
-
+// input Method
 import java.util.*;
 public class Sum {
 	void add(int a,int b) {
@@ -18,3 +18,18 @@ public static void main(String[]arg) {
 	s.add(a,b,c);
 	}
 	}
+// dirct method
+import java.util.*;
+public class Method {
+	void add(int a, int b) {
+	System.out.println("Addition "+(a+b));
+	}
+	void add(int a, int b,int c) {
+	System.out.println("Addition "+(a+b+c));
+	}
+	public static void main(String[]arg) {
+	Method a=new Method();
+	a.add(6,7);
+	a.add(6,8,7);
+	}
+}
