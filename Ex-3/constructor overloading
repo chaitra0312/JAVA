@@ -1,0 +1,13 @@
+import java.util.*;
+public class l {
+	l() {
+	System.out.println("constructor");
+	}
+	l(int n) {
+	System.out.println("value"+n);
+	}
+	public static void main(String[]arg) {
+	l anti=new l();
+	l enti=new l(6);
+	}
+}
