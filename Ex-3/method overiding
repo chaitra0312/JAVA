@@ -10,6 +10,8 @@ class bike extends vehicle {
 	}
 public static void main(String[]arg) {
 	bike obj=new bike();
+	vehicle sc=new vehicle();
 	obj.run();
+	sc.run();
 	}
 }	
