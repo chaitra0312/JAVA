@@ -1,0 +1,15 @@
+import java.util.*;
+class A {
+int amount=10000;
+}
+class D extends A {
+int amount=20000;
+void display()
+{
+System.out.println(super.amount);
+}
+public static void main(String[]arg) {
+D obj=new D();
+obj.display();
+}
+}
