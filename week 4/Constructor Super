@@ -1,0 +1,16 @@
+import java.util.*;
+class Run {
+ Run() {
+System.out.println("parent constructer");
+}
+}
+class Stop extends Run {
+Stop() {
+super();
+System.out.println("child constructer");
+
+}
+public static void main(String[]arg) {
+Stop obj=new Stop();
+}
+}
