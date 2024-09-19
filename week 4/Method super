@@ -1,0 +1,19 @@
+import java.util.*;
+class X {
+public void method() {
+System.out.println("Java");
+}
+}
+class Y extends X {
+public void method() {
+System.out.println("madam");
+}
+void display() {
+super.method();
+method();
+}
+public static void main(String[]arg) {
+Y obj=new Y();
+obj.display();
+}
+}
