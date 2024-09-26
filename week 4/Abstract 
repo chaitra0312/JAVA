@@ -1,0 +1,84 @@
+
+
+import java.util.*";
+
+abstract class Shape {
+
+abstract double area(); }
+
+class Circle extends Shape {
+
+double radius;
+
+Circle(double r){
+
+this.radius=r;
+
+}
+
+double area() {
+
+return 3.14*radius*radius; 
+}
+
+}
+
+class Rectangle extends Shape {
+
+double l,w;
+
+Rectangle(double len, double wid) {
+
+this.l=len;
+
+this.w=wid;
+
+}
+
+double area() {
+
+return l*w;
+
+}
+
+}
+
+class Square extends Shape {
+
+int sqr;
+
+Square(int s) {
+
+this.sqr=s;
+
+}
+
+double area() {
+
+return sqr*sqr;
+
+}
+
+}
+
+class Triangle extends Shape { 
+double base, height;
+Triangle(double b,double h){
+this.base=b;
+this.height=h; }
+double area() {
+return 0.5*base*height; 
+}
+}
+public class Main {
+public static void main(String[]arg) {
+Shape obj=new Circle(7);
+Shape ob new Rectangle(6,7);
+Shape oj new Square(8);
+Shape bj=new Triangle(5,6);
+System.out.println("Circle:"+obj.area())
+System.out.println("Rectangle: "+ob.area());
+System.out.println("Square: "+oj.area());
+System.out.println("Triangle: "+bj.area());
+}
+}
