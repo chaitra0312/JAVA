@@ -1,0 +1,23 @@
+import java.util.*;
+interface A 
+{
+void show();
+void display();
+}
+class S implements A 
+{
+public void show() 
+{
+System.out.println("mlti");
+}
+public void display()
+{
+System.out.println("fhyvkdbhr");
+}
+public static void main(String[]arg)
+{
+S obj=new S();
+obj.show();
+obj.display();
+}
+}
