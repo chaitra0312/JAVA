@@ -37,8 +37,11 @@ public class student {
 	rollno=n;
 	}
 	public static void main(String[]arrg) {
+	Scanner sc=new Scanner(System.in);
+	String name = sc.nextLine();
+	int rollno = sc.nextInt();
 	student s1=new student();
-	student s2=new student("ece",56);
+	student s2=new student(name,rollno);
 	System.out.println(s1.name);
 	System.out.println(s1.rollno);
 	System.out.println(s2.name);
