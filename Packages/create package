@@ -1,0 +1,24 @@
+package Cse;
+	public	class C {
+	public void show() {
+	System.out.println("User defined package");
+	}
+}
+
+//Command to run
+javac -d . C.java
+
+import Cse.C;
+class A {
+public static void main(String[]arg) {
+C obj=new C();
+obj.show();
+}
+}
+
+//command to run
+javac A.java
+java A
+
+// output
+User defined package
