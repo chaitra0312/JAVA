@@ -1,0 +1,11 @@
+import java.util.*;
+public class Palindrome {
+    public static void main(String[]arg) {
+        System.out.println("Enter the string");
+        Scanner sc=new Scanner(System.in);
+        String str=sc.nextLine();
+        String reversed =new StringBuilder(str).reverse().toString();
+        System.out.println(str.equals(reversed));
+    }
+    
+}
