@@ -10,3 +10,24 @@ public class V {
 	M(17);
 	}
 	}
+
+
+
+//using try catch
+public class V {
+	public static void M(int age) throws ArithmeticException {
+	if(age<18) {
+	throw new ArithmeticException("Not Eligible");
+	} else {
+	System.out.println("Eligible");
+	}
+	}
+	public static void main(String[]arg) {
+	try {
+	M(17);
+	}
+	catch(ArithmeticException e){
+	System.out.println("caught" +e);
+	}
+	}
+	}
