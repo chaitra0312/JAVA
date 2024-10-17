@@ -1,0 +1,13 @@
+import java.lang.*;
+class G {
+public static void main(String[]arg)
+{
+	try {
+	int a[]={45,57,87,98,9};
+	System.out.println(a[10]);
+	}
+	catch(ArrayIndexOutOfBoundsException e) {
+	System.out.println(e);
+	}
+	}
+	}
