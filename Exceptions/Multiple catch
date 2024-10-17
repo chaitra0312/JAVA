@@ -1,0 +1,20 @@
+import java.util.*;
+class H{
+public static void main(String[]arg)
+{
+	try {
+	int a[]={45,57,87,98,9};
+	int b=a[6]/0;
+	System.out.println(b);
+	}
+	catch(ArithmeticException ae) {
+	System.out.println(ae);
+	}
+	catch(ArrayIndexOutOfBoundsException e) {
+	System.out.println(e);
+	}
+	catch(NullPointerException bd){
+	System.out.println(bd);
+	}
+	}
+	}
