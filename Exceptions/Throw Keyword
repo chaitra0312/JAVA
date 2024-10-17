@@ -1,0 +1,13 @@
+
+public class J {
+	public static void M(int age) {
+	if(age<18) {
+	throw new ArithmeticException("Not Eligible");
+	} else {
+	System.out.println("Eligible");
+	}
+	}
+	public static void main(String[]arg) {
+	M(17);
+	}
+	}
