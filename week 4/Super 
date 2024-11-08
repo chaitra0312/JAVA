@@ -1,0 +1,18 @@
+class Addition {
+    int add(int a,int b) {
+        return a+b;
+    }
+}
+class Sum extends Addition {
+    int add(int a,int b,int c) {
+        int d=super.add(a,b);
+        return d+c;
+    }
+}
+public class Main {
+    public static void main(String[]arg) {
+        Sum s=new Sum();
+       int result =s.add(2,3,4);
+       System.out.println(result);
+    }
+}
