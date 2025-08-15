@@ -19,3 +19,6 @@ public class Duplicate {
         }
     }
 }
+
+// int should not be null so instead of int (Integer can be used)
+//Arrays is a static no new to create a object using keyword " new " directly can accesed.
